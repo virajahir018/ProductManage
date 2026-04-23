@@ -13,120 +13,56 @@
 
         <h1 align="center">Product Management System</h1>
 
-        <div class="addCard">
+        <form id="addCard" class="addCard">
 
             <h2 align="center">Add Product</h2>
             <div class="name-price">
-                <input class="input" type="text" placeholder="Product Name">
-                <input type="number" placeholder="Price">
+                <input  id="name" type="text" placeholder="Product Name">
+                <input id="iPrice" type="number" placeholder="Price">
             </div>
 
             <div class="category-choose">
-                <input type="text" placeholder="Category">
-                <input type="url" placeholder="Enter Image URL" pattern="https?://.*\.(jpg|jpeg|png|gif|webp)$">
+                <input id="iCategory" type="text" placeholder="Category">
+                <input id="url" type="text" placeholder="Enter Image URL or Base64">
             </div>
 
             <div class="buttons">
-                <button class="addProduct">Add Product</button>
-                <button class="reset">Reset</button>
+                <button type="submit" class="addProduct">Add Product</button>
+                <button type="reset" class="reset">Reset</button>
             </div>
-        </div>
+        </form>
+
+
+        <!-- update -->
+
+
+        <form class="addCard" id="uaddCard"  style="display: none;">
+
+            <h2 align="center">Update Product</h2>
+
+            <div class="name-price">
+
+                <input  id="uname" type="text" placeholder="Product Name">
+                <input id="uiPrice" type="number" placeholder="Price">
+            </div>
+
+            <div class="category-choose">
+
+                <input id="uiCategory" type="text" placeholder="Category">
+                <input id="uurl" type="text" placeholder="Enter Image URL or Base64">
+            </div>
+
+            <div class="buttons">
+                
+                <button type="submit" class="addProduct">Add Product</button>
+                <button type="reset" class="reset">Reset</button>
+            </div>
+        </form>
 
 
         <h2 class="plist">Product List</h2>
 
-        <div class="listCard">
-
-
-            <div class="card">
-                <img src="/JavaScript/CoffeeShop/images/grid1.jpg" alt="">
-
-                <div class="cardDetails">
-                    <h2 class="productName">Product Name</h2>
-                    <h4 class="price">Price : $00</h4>
-                    <h4 class="category">Category : ----</h4>
-
-                    <div class="cardButtons">
-                        <button class="edit">Edit</button>
-                        <button class="delete">Delete</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="/JavaScript/CoffeeShop/images/grid1.jpg" alt="">
-
-                <div class="cardDetails">
-                    <h2 class="productName">Product Name</h2>
-                    <h4 class="price">Price : $00</h4>
-                    <h4 class="category">Category : ----</h4>
-
-                    <div class="cardButtons">
-                        <button class="edit">Edit</button>
-                        <button class="delete">Delete</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="/JavaScript/CoffeeShop/images/grid1.jpg" alt="">
-
-                <div class="cardDetails">
-                    <h2 class="productName">Product Name</h2>
-                    <h4 class="price">Price : $00</h4>
-                    <h4 class="category">Category : ----</h4>
-
-                    <div class="cardButtons">
-                        <button class="edit">Edit</button>
-                        <button class="delete">Delete</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="/JavaScript/CoffeeShop/images/grid1.jpg" alt="">
-
-                <div class="cardDetails">
-                    <h2 class="productName">Product Name</h2>
-                    <h4 class="price">Price : $00</h4>
-                    <h4 class="category">Category : ----</h4>
-
-                    <div class="cardButtons">
-                        <button class="edit">Edit</button>
-                        <button class="delete">Delete</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="/JavaScript/CoffeeShop/images/grid1.jpg" alt="">
-
-                <div class="cardDetails">
-                    <h2 class="productName">Product Name</h2>
-                    <h4 class="price">Price : $00</h4>
-                    <h4 class="category">Category : ----</h4>
-
-                    <div class="cardButtons">
-                        <button class="edit">Edit</button>
-                        <button class="delete">Delete</button>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <img src="/JavaScript/CoffeeShop/images/grid1.jpg" alt="">
-
-                <div class="cardDetails">
-                    <h2 class="productName">Product Name</h2>
-                    <h4 class="price">Price : $00</h4>
-                    <h4 class="category">Category : ----</h4>
-
-                    <div class="cardButtons">
-                        <button class="edit">Edit</button>
-                        <button class="delete">Delete</button>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
+        <div class="listCard"></div>
     </div>
     <script src="srcipt.js"></script>
 </body>
