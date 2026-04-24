@@ -15,20 +15,22 @@
 
         <form id="addCard" class="addCard">
 
-            <h2 align="center">Add Product</h2>
-            <div class="name-price">
-                <input  id="name" type="text" placeholder="Product Name">
-                <input id="iPrice" type="number" placeholder="Price">
-            </div>
+            <div class="addcard">
+                <h2 align="center">Add Product</h2>
+                <div class="name-price">
+                    <input id="name" type="text" placeholder="Product Name">
+                    <input id="iPrice" type="number" placeholder="Price">
+                </div>
 
-            <div class="category-choose">
-                <input id="iCategory" type="text" placeholder="Category">
-                <input id="url" type="text" placeholder="Enter Image URL or Base64">
-            </div>
+                <div class="category-choose">
+                    <input id="iCategory" type="text" placeholder="Category">
+                    <input id="url" type="text" placeholder="Enter Image URL or Base64">
+                </div>
 
-            <div class="buttons">
-                <button type="submit" class="addProduct">Add Product</button>
-                <button type="reset" class="reset">Reset</button>
+                <div class="buttons">
+                    <button type="submit" class="addProduct">Add</button>
+                    <button type="reset" class="reset">Reset</button>
+                </div>
             </div>
         </form>
 
@@ -36,26 +38,29 @@
         <!-- update -->
 
 
-        <form class="addCard" id="uaddCard"  style="display: none;">
+        <form class="addCard" id="uaddCard" style="display: none;">
 
-            <h2 align="center">Update Product</h2>
+            <div class="addcard">
 
-            <div class="name-price">
+                <h2 align="center">Update Product</h2>
 
-                <input  id="uname" type="text" placeholder="Product Name">
-                <input id="uiPrice" type="number" placeholder="Price">
-            </div>
+                <div class="name-price uinp">
 
-            <div class="category-choose">
+                    <input id="uname" type="text" placeholder="Product Name">
+                    <input id="uiPrice" type="number" placeholder="Price">
+                </div>
 
-                <input id="uiCategory" type="text" placeholder="Category">
-                <input id="uurl" type="text" placeholder="Enter Image URL or Base64">
-            </div>
+                <div class="category-choose uinp">
 
-            <div class="buttons">
-                
-                <button type="submit" class="addProduct">Add Product</button>
-                <button type="reset" class="reset">Reset</button>
+                    <input id="uiCategory" type="text" placeholder="Category">
+                    <input id="uurl" type="text" placeholder="Enter Image URL or Base64">
+                </div>
+
+                <div class="buttons ubtn">
+
+                    <button type="submit" class="addProduct">Update</button>
+                    <button type="reset" class="reset">Reset</button>
+                </div>
             </div>
         </form>
 
