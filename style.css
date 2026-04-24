@@ -8,13 +8,18 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 100%;
     background: #558a8a;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .container {
-    width: 90%;
+    width: 87%;
     max-width: 1200px;
     margin: auto;
+}
+
+h1{
+    padding-top: 20px;
+    color: rgb(58, 57, 57);
 }
 
 .addcard {
@@ -152,8 +157,8 @@ h4{
         padding-left: 20px;
     }
 
-    .addCard{
-        width: 100%;
+    .addcard{
+        width: 90%;
         align-items: center;
     }
 
@@ -161,12 +166,7 @@ h4{
         width: 100%;
     }
 
-    .name-price{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .category-choose{
+    .inputs{
         width: 100%;
         flex-direction: column;
     }
