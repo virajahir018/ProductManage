@@ -154,7 +154,8 @@ h4{
     }
 
     .plist{
-        padding-left: 20px;
+        /* padding-left: 20px; */
+        text-align: center;
     }
 
     .addcard{
@@ -177,7 +178,8 @@ h4{
     }
 
     .listCard{
-        width: 100%;
+        width: 90%;
+        margin: auto;
         flex-direction: column;
         align-items: center;
         padding: 20px;
